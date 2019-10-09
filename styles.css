@@ -1054,12 +1054,13 @@
 	filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.161));
 }
 .Rectangle_1 {
-	position: absolute;
-	overflow: visible;
-	width: 1935px;
-	height: 119px;
-	left: 0px;
-	top: 0px;
+    position: fixed;
+    overflow: visible;
+    width: 1935px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 1px 3px #a6a6a6;
 }
 #Group_6 {
 	position: absolute;
@@ -1094,7 +1095,7 @@
 	color: rgba(255,255,255,1);
 }
 #Mask_Group_1 {
-	position: absolute;
+	position: fixed;
 	width: 220px;
 	height: 42px;
 	left: 334px;
@@ -1165,22 +1166,23 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
-	color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
 }
 #Rectangle_2 {
 	filter: drop-shadow(4px 0px 6px rgba(0, 0, 0, 0.161));
 }
 .Rectangle_2 {
-	position: absolute;
-	overflow: visible;
-	width: 234px;
-	height: 2379px;
-	left: 0px;
-	top: 0px;
+    position: fixed;
+    overflow: visible;
+    width: 216px;
+    height: 2379px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 1px 3px #a6a6a6;
 }
 #Icon_feather_grid {
 	opacity: 0.8;
-	position: absolute;
+	position: fixed;
 	width: 37.5px;
 	height: 37.5px;
 	left: 157px;
@@ -1224,7 +1226,7 @@
 	transform: matrix(1,0,0,1,0,0);
 }
 #Icon_feather_search {
-	position: absolute;
+	position: fixed;
 	width: 37.5px;
 	height: 37.5px;
 	left: 157px;
@@ -1251,7 +1253,7 @@
 }
 .Icon_material_store {
 	overflow: visible;
-	position: absolute;
+	position: fixed;
 	top: 418px;
 	left: 157px;
 	width: 37.5px;
@@ -1267,7 +1269,7 @@
 	top: 218px;
 }
 .Rectangle_9 {
-	position: absolute;
+	position: fixed;
 	overflow: visible;
 	width: 5px;
 	height: 87px;
